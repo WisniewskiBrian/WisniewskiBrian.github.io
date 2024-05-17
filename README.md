@@ -1,4 +1,9 @@
-
+<!-- Add this HTML for navigation ribbon -->
+<div class="ribbon">
+  <a href="#welcome">Home</a>
+  <a href="#Work Samples">Work Samples</a>
+ 
+</div>
 
 <a id="welcome"></a>
 # Welcome to My Website. I'm Brian Wisniewski. 
@@ -21,8 +26,10 @@ This website is a place to find materials and information related to myself and 
 You can reach me at:
 
 - Email: [wisniewskibrian11@gmail.com](mailto:wisniewskibrian11@gmail.com)
-- LinkedIn: [wisniewski62](https://www.linkedin.com/in/wisniewski62/)
+- LinkedIn: [www.linkedin.com/in/wisniewski62/](https://www.linkedin.com/in/wisniewski62/)
 
 ---
 
 Thank you for visiting my website. Stay tuned for more updates!
+
+
