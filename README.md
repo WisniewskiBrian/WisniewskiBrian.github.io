@@ -1,8 +1,7 @@
 <!-- Add this HTML for navigation ribbon -->
 <div class="ribbon">
   <a href="#welcome">Home</a>
-  <a href="#work_samples.md">Work Samples</a>
- 
+  <a href="work_samples.md">Work Samples</a> 
 </div>
 
 <a id="welcome"></a>
@@ -32,5 +31,3 @@ You can reach me at:
 ---
 
 Thank you for visiting my website. Stay tuned for more updates!
-
-
