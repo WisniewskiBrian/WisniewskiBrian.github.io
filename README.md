@@ -1,7 +1,7 @@
 <!-- Add this HTML for navigation ribbon -->
 <div class="ribbon">
   <a href="#welcome">Home</a>
-  <a href="#Work Samples">Work Samples</a>
+  <a href="#work_samples.md">Work Samples</a>
  
 </div>
 
