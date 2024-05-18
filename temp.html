@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Text Page</title>
+    <title>Sample Text Page with Video</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,6 +18,10 @@
         }
         ul, ol {
             margin: 10px 0 20px 20px;
+        }
+        video, iframe {
+            display: block;
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -53,6 +57,20 @@
                 <li>Second detail</li>
                 <li>Third detail</li>
             </ol>
+        </section>
+
+        <section>
+            <h2>Embedded Video</h2>
+            <p>Below is an example of an embedded video. You can embed a local video file or a video from an online source like YouTube.</p>
+            
+            <!-- Local video file -->
+            <video width="640" height="360" controls>
+                <source src="path-to-your-video-file.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <!-- YouTube video -->
+            <iframe width="640" height="360" src="https://www.youtube.com/watch?v=-EEa66pahGA&ab_channel=AsmongoldTV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <section>
