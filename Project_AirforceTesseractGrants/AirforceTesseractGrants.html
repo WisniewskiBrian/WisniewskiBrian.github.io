@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Learning to Forecast Google Stock Price</title>
+    <title>Textual Data Analysis and Optimization for Project Prioritization</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -44,28 +44,37 @@
 </head>
 <body>
     <div>
-        <h1>Machine Learning to Forecast Google Stock Price</h1>
+        <h1>Textual Data Analysis and Optimization for Project Prioritization</h1>
         <div class="description">
             <p><strong>Description:</strong></p>
-            <p>In this project, I explored the application of machine learning models to predict the stock price of Google (GOOG). The objective was to compare the accuracy and robustness of two machine learning regression models: Random Forest Regression and Support Vector Regression (SVR).</p>
+            <p>The Textual Data Analysis and Optimization project aimed to develop advanced techniques for analyzing and prioritizing projects based on textual data, particularly focusing on Department of Defense (DoD) Phase II SBIR awards and Tesseract Airmen requests. The project involved the implementation of cutting-edge natural language processing (NLP) methods to enhance the efficiency and effectiveness of resource allocation and decision-making processes within the Air Force.</p>
             <p><strong>Technical Methods and Skills Used:</strong></p>
             <ul>
-                <li><strong>Data Collection and Preprocessing:</strong> Collected historical stock data from Yahoo! Finance, including fields such as Date, Open, High, Low, Close, Adj Close, and Volume.</li>
-                <li><strong>Exploratory Data Analysis (EDA):</strong> Conducted initial data analysis to understand correlations and patterns in the dataset.</li>
-                <li><strong>Machine Learning Models:</strong> Implemented and trained Random Forest Regression and SVR models to forecast stock prices.</li>
-                <li><strong>Cross-Validation:</strong> Employed repeated cross-validation techniques to ensure robust model evaluation.</li>
-                <li><strong>Performance Metrics:</strong> Evaluated model performance using Root Mean Squared Error (RMSE) and percentage RMSE.</li>
-                <li><strong>Feature Importance Analysis:</strong> Analyzed feature importance in the Random Forest model, addressing challenges related to high collinearity among price variables.</li>
+                <li><strong>Data Collection and Preprocessing:</strong> Collected and preprocessed textual data from DoD Phase II SBIR awards and Tesseract Airmen requests, including fields such as project descriptions, solution statements, and keywords.</li>
+                <li><strong>Keyword Extraction with KeyBERT:</strong> Utilized KeyBERT for efficient extraction of keywords from textual data, providing a foundation for subsequent analyses.</li>
+                <li><strong>Topic Modeling with Latent Dirichlet Allocation (LDA):</strong> Implemented LDA to generate coherent topics from the corpus of textual data, enabling the identification of underlying themes and structures.</li>
+                <li><strong>Visualization with t-SNE:</strong> Employed t-SNE for data visualization, facilitating the understanding of data distribution and clustering patterns in lower-dimensional space.</li>
+                <li><strong>Batch Processing:</strong> Implemented batch processing techniques to efficiently handle large volumes of textual data, optimizing computational efficiency.</li>
+                <li><strong>Cosine Similarity Analysis:</strong> Applied cosine similarity to determine semantic similarities between different textual documents, aiding in project similarity assessment.</li>
+                <li><strong>TF-IDF with Logistic Regression:</strong> Combined TF-IDF with Logistic Regression for project phase classification and identification of important terms indicative of specific project phases.</li>
             </ul>
             <p><strong>Outcome:</strong></p>
-            <p>The Random Forest Regression model outperformed the SVR model in terms of accuracy and robustness, as indicated by lower RMSE and percentage RMSE values. This project demonstrates my ability to apply advanced machine learning techniques and perform rigorous model evaluation.</p>
+            <p>The project successfully developed and implemented advanced techniques for analyzing and prioritizing projects based on textual data. Key achievements include:</p>
+            <ul>
+                <li>Efficient extraction of keywords and generation of coherent topics from textual data.</li>
+                <li>Visualization of data distribution and clustering patterns, facilitating deeper insights into the underlying structure of the data.</li>
+                <li>Optimization of computational efficiency through batch processing techniques.</li>
+                <li>Identification of semantic similarities between projects, aiding in project similarity assessment.</li>
+                <li>Classification of project phases and identification of important terms, contributing to project prioritization efforts.</li>
+            </ul>
         </div>
         <div class="video-container">
-            <iframe src="/Project_StockPrediction/PredictingStockPrice.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="/Project_TextualAnalysis/TextualAnalysis.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="pdf-container">
-            <iframe src="/Project_StockPrediction/annotated-PredictingGOOGMachineLearning.pdf" frameborder="0"></iframe>
+            <iframe src="/AirforceTesseractGrants.pdf" frameborder="0"></iframe>
         </div>
     </div>
 </body>
 </html>
+
