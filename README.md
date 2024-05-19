@@ -1,8 +1,10 @@
-<a id="welcome"></a>
-# I'm Brian. Welcome to My Website.
+<div style="text-align: center;">
+    <a id="welcome"></a>
+    <h1>Welcome to My Website.</h1>
+</div>
 
 <div style="text-align: center;">
-  <img src="images/ImageOfMe.jpeg" alt="Image of Me" style="max-width: 70%; height: auto;">
+    <img src="images/ImageOfMe.jpeg" alt="Image of Me" style="max-width: 70%; height: auto;">
 </div>
 
 <a id="about"></a>
