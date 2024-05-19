@@ -2,12 +2,15 @@
 <div class="ribbon">
   <a href="#welcome">Home</a>
   <a href="/work_samples.md">Work Samples</a> <!-- Link directly to work_samples.md in the root directory -->
- <a href="/Project 1.html">Worktees</a>
+  <a href="/Project 1.html">Worktees</a>
 </div>
 
 <a id="welcome"></a>
-# Welcome to My Website. I'm Brian Wisniewski. 
-![Image of Me](images/ImageOfMe.jpeg)
+# Welcome to My Website.
+
+<div style="text-align: center;">
+  <img src="images/ImageOfMe.jpeg" alt="Image of Me" style="max-width: 100%; height: auto;">
+</div>
 
 <a id="about"></a>
 ## About
@@ -30,6 +33,8 @@ You can reach me at:
 - Email: [wisniewskibrian11@gmail.com](mailto:wisniewskibrian11@gmail.com)
 - LinkedIn: [www.linkedin.com/in/wisniewski62/](https://www.linkedin.com/in/wisniewski62/)
 - Phone: (440)-487-0438
+
 ---
 
 Thank you for visiting my website. Stay tuned for more updates!
+
