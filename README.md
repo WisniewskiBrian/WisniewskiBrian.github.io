@@ -20,12 +20,7 @@ I am a dedicated data scientist with a Master's in Translational Data Analytics,
 - Work Samples:
   -  <a href="/Project_StockPrediction/Project_StockPrediction.html">Forecasting a Stock Price with Machine Learning</a>
   -  <a href="/Project_AirforceTesseractGrants.html">Collaborating with U.S. Air Force and Tesseract to Optimize Grant Funding Using Natural Language Processing</a>
-  
-
-
-  Project_AirforceTesseractGrants
-
-<a id="contact"></a>
+  <a id="contact"></a>
 ## Contact
 
 You can reach me at:
