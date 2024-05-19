@@ -18,7 +18,12 @@ I am a dedicated data scientist with a Master's in Translational Data Analytics,
 
 - Resume: [Download My Resume](/WisniewskiBrian_Resume_05.17_2024.pdf)
 - Work Samples:
-  -  <a href="/Project_StockPrediction/Project_StockPrediction.html">Machine Learning to Predict Stock Price</a>
+  -  <a href="/Project_StockPrediction/Project_StockPrediction.html">Forecasting a Stock Price with Machine Learning</a>
+  -  <a href="/Project_AirforceTesseractGrants.html">Collaborating with U.S. Airforce and Tesseract to Leverage Natural Language Processing for Grant Funding Optimization</a>
+  
+
+
+  Project_AirforceTesseractGrants
 
 <a id="contact"></a>
 ## Contact
