@@ -22,7 +22,9 @@
             margin-bottom: 20px;
             width: 80%;
             max-width: 800px;
-            text-align: center;
+            text-align: left; /* Align text left */
+            margin-left: auto; /* Align block of text to the center */
+            margin-right: auto;
         }
         .video-container {
             width: 133%; /* One-third of 400% */
@@ -49,7 +51,7 @@
             <p><strong>Description:</strong></p>
             <p>In this project, I explored the application of machine learning models to predict the stock price of Google (GOOG). The objective was to compare the accuracy and robustness of two machine learning regression models: Random Forest Regression and Support Vector Regression (SVR).</p>
             <p><strong>Technical Methods and Skills Used:</strong></p>
-            <ul>
+            <ul style="text-align: left;"> <!-- Align list items left -->
                 <li><strong>Data Collection and Preprocessing:</strong> Collected historical stock data from Yahoo! Finance, including fields such as Date, Open, High, Low, Close, Adj Close, and Volume.</li>
                 <li><strong>Exploratory Data Analysis (EDA):</strong> Conducted initial data analysis to understand correlations and patterns in the dataset.</li>
                 <li><strong>Machine Learning Models:</strong> Implemented and trained Random Forest Regression and SVR models to forecast stock prices.</li>
@@ -61,7 +63,7 @@
             <p>The Random Forest Regression model outperformed the SVR model in terms of accuracy and robustness, as indicated by lower RMSE and percentage RMSE values. This project demonstrates my ability to apply advanced machine learning techniques and perform rigorous model evaluation.</p>
         </div>
         <div class="video-container">
-            <iframe src="/Project_StockPrediction/PredictingStockPrice.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/C5USnZjmma8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="pdf-container">
             <iframe src="/Project_StockPrediction/annotated-PredictingGOOGMachineLearning.pdf" frameborder="0"></iframe>
@@ -69,6 +71,7 @@
     </div>
 </body>
 </html>
+
 
 
 
