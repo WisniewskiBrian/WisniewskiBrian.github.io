@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>Predicting Stock Price</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,6 +20,8 @@
         }
         .description {
             margin-bottom: 20px;
+            width: 80%;
+            max-width: 800px;
         }
         .video-container {
             width: 133%; /* One-third of 400% */
@@ -43,7 +45,20 @@
     <div>
         <h1>Project 1</h1>
         <div class="description">
-            <p>This is the description of Project 1. Here you can provide more details about the project, its objectives, and any other relevant information.</p>
+            <p><strong>Project: Machine Learning to Forecast Google Stock Price</strong></p>
+            <p><strong>Description:</strong></p>
+            <p>In this project, I explored the application of machine learning models to predict the stock price of Google (GOOG). The objective was to compare the accuracy and robustness of two machine learning regression models: Random Forest Regression and Support Vector Regression (SVR).</p>
+            <p><strong>Technical Methods and Skills Used:</strong></p>
+            <ul>
+                <li><strong>Data Collection and Preprocessing:</strong> Collected historical stock data from Yahoo! Finance, including fields such as Date, Open, High, Low, Close, Adj Close, and Volume.</li>
+                <li><strong>Exploratory Data Analysis (EDA):</strong> Conducted initial data analysis to understand correlations and patterns in the dataset.</li>
+                <li><strong>Machine Learning Models:</strong> Implemented and trained Random Forest Regression and SVR models to forecast stock prices.</li>
+                <li><strong>Cross-Validation:</strong> Employed repeated cross-validation techniques to ensure robust model evaluation.</li>
+                <li><strong>Performance Metrics:</strong> Evaluated model performance using Root Mean Squared Error (RMSE) and percentage RMSE.</li>
+                <li><strong>Feature Importance Analysis:</strong> Analyzed feature importance in the Random Forest model, addressing challenges related to high collinearity among price variables.</li>
+            </ul>
+            <p><strong>Outcome:</strong></p>
+            <p>The Random Forest Regression model outperformed the SVR model in terms of accuracy and robustness, as indicated by lower RMSE and percentage RMSE values. This project demonstrates my ability to apply advanced machine learning techniques and perform rigorous model evaluation.</p>
         </div>
         <div class="video-container">
             <iframe src="/Project_StockPrediction/PredictingStockPrice.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
