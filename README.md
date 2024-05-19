@@ -2,7 +2,7 @@
 <div class="ribbon">
   <a href="#welcome">Home</a>
   <a href="/work_samples.md">Work Samples</a> <!-- Link directly to work_samples.md in the root directory -->
- <a href="/temp.html">Worktees</a>
+ <a href="/Project 1.html">Worktees</a>
 </div>
 
 <a id="welcome"></a>
