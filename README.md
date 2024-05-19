@@ -19,11 +19,11 @@
 
 I am a dedicated data scientist with a Master's in Translational Data Analytics, passionate about leveraging AI and advanced analytics to drive impactful solutions. With experience leading collaborative projects and a strong foundation in both technical and interdisciplinary fields, I am excited to contribute to innovative and transformative projects, creating intelligent applications and experiences.
 
+### What do I do? 
+
 - Resume: [Download My Resume](/WisniewskiBrian_Resume_05.17_2024.pdf)
-
-### What is this website about?
-
-This website is a place to find materials and information related to myself and my work. 
+- Work Samples:
+  -  <a href="/Project 1.html">Machine Learning to Predict Stock Price</a>
 
 <a id="contact"></a>
 ## Contact
