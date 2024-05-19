@@ -17,7 +17,6 @@
 I am a dedicated data scientist with a Master's in Translational Data Analytics, passionate about leveraging AI and advanced analytics to drive impactful solutions. With experience leading collaborative projects and a strong foundation in both technical and interdisciplinary fields, I am excited to contribute to innovative and transformative projects, creating intelligent applications and experiences.
 
 - Resume: [Download My Resume](/WisniewskiBrian_Resume_05.17_2024.pdf)
-- Resume: [test](/work_samples.md) 
 
 ### What is this website about?
 
@@ -30,8 +29,7 @@ You can reach me at:
 
 - Email: [wisniewskibrian11@gmail.com](mailto:wisniewskibrian11@gmail.com)
 - LinkedIn: [www.linkedin.com/in/wisniewski62/](https://www.linkedin.com/in/wisniewski62/)
-
--Test: [test](https://wisniewskibrian.github.io/BrianWisniewski/)
+- Phone: (440)-487-0438
 ---
 
 Thank you for visiting my website. Stay tuned for more updates!
