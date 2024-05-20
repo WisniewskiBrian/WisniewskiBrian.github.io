@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Burned Area of Forest Fires in Northeast Portugal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 800px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .video-container {
+            width: 75%;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+        .pdf-container {
+            width: 75%;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto.
+        }
+        .pdf-container iframe {
+            width: 100%;
+            height: 416.5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Predicting Burned Area of Forest Fires in Northeast Portugal</h1>
+        <div class="description">
+            <p><strong>Description:</strong></p>
+            <p>This project aimed to predict the burned area of forest fires in the northeast region of Portugal using multiple regression trees. The objective was to fit models that minimize predictive error and identify key variables influencing the burned area.</p>
+            <p><strong>Technical Methods and Skills Used:</strong></p>
+            <ul>
+                <li><strong>Data Exploration:</strong> Used histograms and scatter plots to inspect variables, assess skewness, and identify potential explanatory power with respect to the burned area.</li>
+                <li><strong>Log Transformation:</strong> Applied log transformation to the burned area variable to address significant skewness and improve model accuracy.</li>
+                <li><strong>Training and Testing Data:</strong> Created random subsets for training and testing, ensuring reproducibility by setting a random seed.</li>
+                <li><strong>Model Building:</strong> Fitted and plotted five CART regression models using different variables and tuning criteria, focusing on variables such as temperature, Duff Moisture Code (DMC), and Drought Code (DC).</li>
+                <li><strong>Prediction and Validation:</strong> Made predictions on testing data, converted predictions to hectare scale, and computed root mean squared prediction error (RMSPE) for model validation.</li>
+                <li><strong>Averaging Predictions:</strong> Computed the average of predictions from multiple models to improve overall prediction accuracy and analyzed the effect of different random seeds on model performance.</li>
+            </ul>
+            <p><strong>Outcome:</strong></p>
+            <p>The project identified temperature and DMC as key variables in predicting the burned area of forest fires. The log-transformed predictions provided more accurate results compared to original data predictions. Averaging predictions from multiple models improved accuracy, though some models produced infinite RMSPE due to extreme prediction errors. Experimentation with different random seeds showed significant variability in model performance, highlighting the importance of comprehensive testing and validation.</p>
+            <p>Overall, the project demonstrated the effectiveness of regression trees in predicting forest fire impacts and underscored the need for thorough preliminary analysis and variable selection to enhance model accuracy and reliability.</p>
+        </div>
+        
+        <div class="pdf-container">
+            <iframe src="/Project_RedesignIDP/IDP_UserTesting.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+</html>
