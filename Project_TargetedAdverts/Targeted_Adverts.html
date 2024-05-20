@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Predicting Burned Area of Forest Fires in Northeast Portugal</title>
+    <title>GRADTDA 5620 Random Forest Assignment</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,17 +26,6 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .video-container {
-            width: 75%;
-            margin-bottom: 20px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .video-container iframe {
-            width: 100%;
-            height: auto;
-            aspect-ratio: 16 / 9;
-        }
         .pdf-container {
             width: 75%;
             margin-bottom: 20px;
@@ -53,52 +42,26 @@
 </head>
 <body>
     <div>
-        <h1>Predicting Burned Area of Forest Fires in Northeast Portugal</h1>
+        <h1>GRADTDA 5620 Random Forest Assignment</h1>
         <div class="description">
-            <p><strong>GRADTDA 5620 Random Forest Assignment</strong></p>
-            <p><strong>Data Description:</strong></p>
-            <p>The dataset "airline" encompasses customer satisfaction data related to passengers' experiences on an airline. The data can be accessed <a href="https://www.kaggle.com/sjleshrac/airlines-customer-satisfaction?select=Invistico_Airline.csv">here</a>. Here are the key variables included in the dataset:</p>
+            <p><strong>Description:</strong></p>
+            <p>An airline wants to identify some opportunities to improve customer satisfaction and to identify the most dissatisfied customers to target for coupons. This report intends to address those wants by examining the airlines data set, which contains variables related to customer satisfaction and flights. Plots, context, and the use of random forest modeling are used and takeaways compiled in this report.</p>
+            <p><strong>Technical Methods and Skills Used:</strong></p>
             <ul>
-                <li><strong>Satisfaction:</strong> A binary indicator reflecting overall satisfaction or dissatisfaction with the experience.</li>
-                <li><strong>Gender:</strong> Passenger's gender.</li>
-                <li><strong>Customer Type:</strong> Passenger's loyalty status.</li>
-                <li><strong>Age:</strong> Passenger's age in years.</li>
-                <li><strong>Type of Travel:</strong> Purpose of the passenger's travel.</li>
-                <li><strong>Class:</strong> Ticket class (Business, Eco, Eco Plus).</li>
-                <li><strong>Flight Distance:</strong> Length of the flight (assumed to be in miles).</li>
-                <li><strong>Various Satisfaction Metrics:</strong> Likert-scaled satisfaction ratings on aspects such as seat comfort, departure and arrival time convenience, food and drink quality, gate location, inflight wifi service, online support, online booking process, leg room, baggage handling, check-in service, cleanliness, online boarding, onboard service, departure delay, and arrival delay.</li>
+                <li><strong>Data Exploration:</strong> Explored the dataset using various visualization techniques such as histograms, scatter plots, box plots, and bar charts to understand the distribution and relationship of variables with customer satisfaction.</li>
+                <li><strong>Random Forest Modeling:</strong> Employed random forest modeling to analyze the importance of different variables in predicting customer satisfaction and identifying dissatisfied customers.</li>
+                <li><strong>Statistical Analysis:</strong> Utilized statistical methods to evaluate variable importance, mean decrease Gini, and predict customer satisfaction based on key variables.</li>
+                <li><strong>Experimental Design:</strong> Designed experiments to offer coupons to specific customer segments based on model predictions and analyzed the impact of these interventions on customer satisfaction.</li>
             </ul>
-            <p><strong>Data Analysis Task:</strong></p>
-            <p>This project involved two goals. Use random forests and/or individual classification trees to perform your analysis.</p>
-            <ol>
-                <li><strong>Identify Some Opportunities to Improve Customer Satisfaction:</strong>
-                    <ul>
-                        <li>Propose cost-effective improvements based on analysis findings.</li>
-                        <li>Consider variables' contributions to overall satisfaction and their practicality for improvement.</li>
-                        <li>Focus on predictors that significantly impact satisfaction without exceeding practical limitations.</li>
-                    </ul>
-                </li>
-                <li><strong>Identify the Most Dissatisfied Customers to Target for Coupons:</strong>
-                    <ul>
-                        <li>Develop a process to determine which dissatisfied passengers should be offered coupons.</li>
-                        <li>Consider the fairness and cost-effectiveness of using certain variables for targeting.</li>
-                        <li>Determine criteria for identifying passengers eligible for coupons, considering the binary satisfaction response.</li>
-                    </ul>
-                </li>
-            </ol>
-            <p><strong>Additional Considerations:</strong></p>
-            <ul>
-                <li>Ensure proper data type coercion for compatibility with randomForest.</li>
-                <li>Address missing data appropriately.</li>
-                <li>Account for computational costs associated with fitting random forest models, considering the dataset's size and complexity.</li>
-                <li>Plan for efficient analysis by optimizing model fitting processes.</li>
-            </ul>
+            <p><strong>Outcome:</strong></p>
+            <p>The analysis identified key variables such as age, ease of online booking, cleanliness, and baggage handling as significant predictors of customer satisfaction. Recommendations were provided for improving customer satisfaction through targeted interventions such as seat upgrades, online experience enhancements, and staff training. The project highlighted the importance of data-driven decision-making and collaboration between financial analysts and airline specialists to implement effective strategies for improving customer satisfaction and loyalty.</p>
         </div>
         
         <div class="pdf-container">
-            <iframe src="/Project_TargetedAdverts/Targeted_Adverts.pdf" frameborder="0"></iframe>
+            <iframe src="Targeted_Adverts.pdf" frameborder="0"></iframe>
         </div>
     </div>
 </body>
 </html>
+
 
