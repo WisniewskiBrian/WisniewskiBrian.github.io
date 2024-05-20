@@ -21,7 +21,7 @@ I am a dedicated data scientist with a Master's in Translational Data Analytics,
   -  <a href="/Project_StockPrediction/Project_StockPrediction.html">Forecasting a Stock Price with Machine Learning</a>
   -  <a href="/Project_AirforceTesseractGrants/AirforceTesseractGrants.html">Collaborating with U.S. Air Force and Tesseract to Optimize Grant Funding Using Natural Language Processing</a>
   <a id="contact"></a>
-  -  <a href="/Project_RedesignIDP/IDP.html.html">UI/UX Research - Redesigning OSU's IDP Calculator</a>
+  -  <a href="/Project_RedesignIDP/IDP.html">UI/UX Research - Redesigning OSU's IDP Calculator</a>
   <a id="contact"></a>
 
 ## Contact
