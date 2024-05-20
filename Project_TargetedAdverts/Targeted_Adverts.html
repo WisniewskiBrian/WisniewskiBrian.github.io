@@ -55,25 +55,50 @@
     <div>
         <h1>Predicting Burned Area of Forest Fires in Northeast Portugal</h1>
         <div class="description">
-            <p><strong>Description:</strong></p>
-            <p>This project aimed to predict the burned area of forest fires in the northeast region of Portugal using multiple regression trees. The objective was to fit models that minimize predictive error and identify key variables influencing the burned area.</p>
-            <p><strong>Technical Methods and Skills Used:</strong></p>
+            <p><strong>GRADTDA 5620 Random Forest Assignment</strong></p>
+            <p><strong>Data Description:</strong></p>
+            <p>The dataset "airline" encompasses customer satisfaction data related to passengers' experiences on an airline. The data can be accessed <a href="https://www.kaggle.com/sjleshrac/airlines-customer-satisfaction?select=Invistico_Airline.csv">here</a> or downloaded as a zipped file from Carmen. Here are the key variables included in the dataset:</p>
             <ul>
-                <li><strong>Data Exploration:</strong> Used histograms and scatter plots to inspect variables, assess skewness, and identify potential explanatory power with respect to the burned area.</li>
-                <li><strong>Log Transformation:</strong> Applied log transformation to the burned area variable to address significant skewness and improve model accuracy.</li>
-                <li><strong>Training and Testing Data:</strong> Created random subsets for training and testing, ensuring reproducibility by setting a random seed.</li>
-                <li><strong>Model Building:</strong> Fitted and plotted five CART regression models using different variables and tuning criteria, focusing on variables such as temperature, Duff Moisture Code (DMC), and Drought Code (DC).</li>
-                <li><strong>Prediction and Validation:</strong> Made predictions on testing data, converted predictions to hectare scale, and computed root mean squared prediction error (RMSPE) for model validation.</li>
-                <li><strong>Averaging Predictions:</strong> Computed the average of predictions from multiple models to improve overall prediction accuracy and analyzed the effect of different random seeds on model performance.</li>
+                <li><strong>Satisfaction:</strong> A binary indicator reflecting overall satisfaction or dissatisfaction with the experience.</li>
+                <li><strong>Gender:</strong> Passenger's gender.</li>
+                <li><strong>Customer Type:</strong> Passenger's loyalty status.</li>
+                <li><strong>Age:</strong> Passenger's age in years.</li>
+                <li><strong>Type of Travel:</strong> Purpose of the passenger's travel.</li>
+                <li><strong>Class:</strong> Ticket class (Business, Eco, Eco Plus).</li>
+                <li><strong>Flight Distance:</strong> Length of the flight (assumed to be in miles).</li>
+                <li><strong>Various Satisfaction Metrics:</strong> Likert-scaled satisfaction ratings on aspects such as seat comfort, departure and arrival time convenience, food and drink quality, gate location, inflight wifi service, online support, online booking process, leg room, baggage handling, check-in service, cleanliness, online boarding, onboard service, departure delay, and arrival delay.</li>
             </ul>
-            <p><strong>Outcome:</strong></p>
-            <p>The project identified temperature and DMC as key variables in predicting the burned area of forest fires. The log-transformed predictions provided more accurate results compared to original data predictions. Averaging predictions from multiple models improved accuracy, though some models produced infinite RMSPE due to extreme prediction errors. Experimentation with different random seeds showed significant variability in model performance, highlighting the importance of comprehensive testing and validation.</p>
-            <p>Overall, the project demonstrated the effectiveness of regression trees in predicting forest fire impacts and underscored the need for thorough preliminary analysis and variable selection to enhance model accuracy and reliability.</p>
+            <p><strong>Data Analysis Task:</strong></p>
+            <p>You have two goals. Use random forests and/or individual classification trees to perform your analysis.</p>
+            <ol>
+                <li><strong>Identify Some Opportunities to Improve Customer Satisfaction:</strong>
+                    <ul>
+                        <li>Propose cost-effective improvements based on analysis findings.</li>
+                        <li>Consider variables' contributions to overall satisfaction and their practicality for improvement.</li>
+                        <li>Focus on predictors that significantly impact satisfaction without exceeding practical limitations.</li>
+                    </ul>
+                </li>
+                <li><strong>Identify the Most Dissatisfied Customers to Target for Coupons:</strong>
+                    <ul>
+                        <li>Develop a process to determine which dissatisfied passengers should be offered coupons.</li>
+                        <li>Consider the fairness and cost-effectiveness of using certain variables for targeting.</li>
+                        <li>Determine criteria for identifying passengers eligible for coupons, considering the binary satisfaction response.</li>
+                    </ul>
+                </li>
+            </ol>
+            <p><strong>Additional Considerations:</strong></p>
+            <ul>
+                <li>Ensure proper data type coercion for compatibility with randomForest.</li>
+                <li>Address missing data appropriately.</li>
+                <li>Account for computational costs associated with fitting random forest models, considering the dataset's size and complexity.</li>
+                <li>Plan for efficient analysis by optimizing model fitting processes.</li>
+            </ul>
         </div>
         
         <div class="pdf-container">
-            <iframe src="/Project_RegressionPrediction/RegressionForestFires.pdf" frameborder="0"></iframe>
+            <iframe src="Project_TargetedAdverts/Targeted_Adverts.pdf" frameborder="0"></iframe>
         </div>
     </div>
 </body>
 </html>
+
