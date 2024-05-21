@@ -37,5 +37,5 @@ You can reach me at:
 
 ---
 
-Thank you for visiting my website. Stay tuned for more updates!
+Thank you for visiting my website. It's WIP and I update it daily. Stay tuned for more updates!
 
