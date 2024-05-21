@@ -26,26 +26,22 @@
             margin-left: auto; /* Align block of text to the center */
             margin-right: auto;
         }
-        .video-container {
-            width: 79%; /* 158% / 2 */
+        .video-container, .pdf-container {
+            width: 158%; /* Double the previous width of 79% */
+            max-width: 1200px; /* Adjust max width as needed */
             margin-bottom: 20px;
             margin-left: auto; /* Center the container */
             margin-right: auto; /* Center the container */
+            display: flex;
+            justify-content: center;
         }
-        .video-container iframe {
+        .video-container iframe, .pdf-container iframe {
             width: 100%;
             height: auto;
             aspect-ratio: 16 / 9;
         }
-        .pdf-container {
-            width: 79%; /* 158% / 2 */
-            margin-bottom: 20px;
-            margin-left: auto; /* Center the container */
-            margin-right: auto; /* Center the container */
-        }
         .pdf-container iframe {
-            width: 100%;
-            height: 416.5px; /* Half of the previous height */
+            height: 833px; /* Double the previous height of 416.5px */
         }
     </style>
 </head>
