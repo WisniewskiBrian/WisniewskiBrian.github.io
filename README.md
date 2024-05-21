@@ -34,7 +34,6 @@ You can reach me at:
 
 - Email: [wisniewskibrian11@gmail.com](mailto:wisniewskibrian11@gmail.com)
 - LinkedIn: [www.linkedin.com/in/wisniewski62/](https://www.linkedin.com/in/wisniewski62/)
-- Phone: (440)-487-0438
 
 ---
 
