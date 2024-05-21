@@ -22,34 +22,30 @@
             margin-bottom: 20px;
             width: 80%;
             max-width: 800px;
-            text-align: left; /* Align text left */
-            margin-left: auto; /* Align block of text to the center */
+            text-align: left;
+            margin-left: auto;
             margin-right: auto;
         }
-        .video-container {
+        .video-container, .pdf-container {
             width: 177.75%;
-            max-width: 1600px;
-            margin: 20px auto; /* Center the container */
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
         }
-        .video-container iframe {
+        .video-container iframe, .pdf-container iframe {
             width: 100%;
             height: auto;
             aspect-ratio: 16 / 9;
         }
-        .pdf-container {
-            width: 177.75%;
-            max-width: 1600px;
-            margin: 20px auto; /* Center the container */
-        }
         .pdf-container iframe {
-            width: 100%;
             height: 937.125px;
         }
     </style>
 </head>
 <body>
     <div>
-        <h1>Redesigning OSU's IDP Calculator with DataSense</h1>
+        <h1>Redesigning OSU's IDP Calculator with DataSense test</h1>
         <div class="description">
             <p><strong>Description:</strong></p>
             <p>The Integrated Data Protection (IDP) project involved redesigning Ohio State University's IDP Calculator to improve its usability and user experience. The goal was to create a tool that helps researchers and university staff understand and comply with data protection policies by providing a more intuitive and informative interface.</p>
