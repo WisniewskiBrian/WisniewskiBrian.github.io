@@ -24,6 +24,7 @@ I am a dedicated data scientist with a Master's in Translational Data Analytics,
   -  <a href="Project_RegressionPrediction/RegressionForestFire.html">Regression Prediction of Forest Fires in Portugal</a> 
   -  <a href="Project_TargetedAdverts/Targeted_Adverts.html">Random Forest to Target Advertising Promotions</a>
   -  <a href="Project_CARTDeath/CartDeath.html">CART to Predict and Prevent Mortality Events</a>
+  -  <a href="Project_CARTDeath/CartDeath.html">CART to Predict and Prevent Mortality Events</a>
    - I have more, but not here. If there are other concepts or methods that you are curious if I have experience with, then please ask.
 
 ## Contact
