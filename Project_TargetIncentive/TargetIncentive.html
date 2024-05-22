@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Customer Data to Optimize Incentive Deployment and Reduce Cancellations at Buckeye Resorts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 800px;
+            text-align: left; /* Align text left */
+            margin-left: auto; /* Center block of text */
+            margin-right: auto;
+        }
+        .video-container, .pdf-container {
+            width: 158%; /* Double the previous width of 79% */
+            max-width: 1200px; /* Adjust max width as needed */
+            margin-bottom: 20px;
+            margin-left: auto; /* Center the container */
+            margin-right: auto; /* Center the container */
+            display: flex;
+            justify-content: center;
+        }
+        .video-container iframe, .pdf-container iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+        .pdf-container iframe {
+            height: 833px; /* Double the previous height of 416.5px */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Using Customer Data to Optimize Incentive Deployment and Reduce Cancellations at Buckeye Resorts</h1>
+        <div class="description">
+            <p><strong>Description:</strong></p>
+            <p>This project aimed to reduce the financial losses incurred by Buckeye Resorts, Inc. (BRI) due to reservation cancellations. By leveraging customer data, the objective was to predict the likelihood of a reservation being canceled and improve the effectiveness of incentive programs designed to prevent such cancellations.</p>
+            <p><strong>Technical Methods and Skills Used:</strong></p>
+            <ul>
+                <li><strong>Data Collection and Preprocessing:</strong> Analyzed a dataset containing 119,391 customer reservations over three years (2015-2017), including 32 attributes for each reservation. Conducted exploratory data analysis to understand the data and identify relevant features for modeling.</li>
+                <li><strong>Feature Selection:</strong> Chose key customer attributes for the predictive model:
+                    <ul>
+                        <li><strong>Predictor Variable:</strong> <em>is_canceled:</em> Indicator of whether a customer reservation was canceled.</li>
+                        <li><strong>Explanatory Variables:</strong>
+                            <ul>
+                                <li><em>kidsToAdults:</em> Ratio of the number of kids to adults.</li>
+                                <li><em>cancelRate:</em> (previous_bookings_not_canceled - previous_bookings_canceled) / total number of bookings.</li>
+                                <li><em>correctRoom:</em> Logical indicator where reserved_room_type equals assigned_room_type.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Model Development:</strong> Developed a cost matrix to evaluate the benefits of different predictive models. Implemented a k-Nearest Neighbors (KNN) model to predict reservation cancellations, focusing on achieving high accuracy at low cost.</li>
+            </ul>
+            <p><strong>Outcome:</strong></p>
+            <ul>
+                <li><strong>Model Results:</strong> The KNN model demonstrated high accuracy in predicting cancellations using the selected variables, offering a cost-effective solution for BRI. The model's confusion matrix indicated a strong predictive performance, justifying the approach.</li>
+                <li><strong>Recommendations and Discussion:</strong> Recommended that BRI proceed with the proposed data-driven approach to predict and mitigate reservation cancellations. Suggested conducting trials with varying incentive amounts ($50, $100, $150) over a year to determine the most profitable incentive amount, as current data was insufficient to conclusively establish the optimal compensation.</li>
+                <li><strong>Conclusion:</strong> Successfully constructed a predictive model using <em>is_canceled</em> as the predictor variable and <em>kidsToAdults, cancelRate,</em> and <em>correctRoom</em> as explanatory variables. Confirmed that implementing some form of compensation can benefit reservation follow-through. Proposed further trials with different incentive amounts to refine the approach and maximize profit from reservations.</li>
+            </ul>
+            <p><strong>Interactive Features:</strong> Implemented interactive visualizations and dashboards to allow BRI to monitor model predictions and adjust incentive strategies in real-time.</p>
+            <p><strong>Feedback and Iteration:</strong> Gathered feedback from stakeholders and iteratively improved the model and incentive strategy based on real-world performance and user input.</p>
+        </div>
+    </div>
+</body>
+</html>
