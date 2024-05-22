@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Predicting and Preventing Mortality Events Using CART</title>
+    <title>CART Assignment by Brian M Wisniewski</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,14 +22,16 @@
             margin-bottom: 20px;
             width: 80%;
             max-width: 800px;
-            text-align: left;
-            margin-left: auto;
+            text-align: left; /* Align text left */
+            margin-left: auto; /* Center block of text */
             margin-right: auto;
         }
         .video-container, .pdf-container {
-            width: 177.75%;
-            max-width: 1200px;
-            margin: 20px auto;
+            width: 158%; /* Double the previous width of 79% */
+            max-width: 1200px; /* Adjust max width as needed */
+            margin-bottom: 20px;
+            margin-left: auto; /* Center the container */
+            margin-right: auto; /* Center the container */
             display: flex;
             justify-content: center;
         }
@@ -39,36 +41,42 @@
             aspect-ratio: 16 / 9;
         }
         .pdf-container iframe {
-            height: 937.125px;
+            height: 833px; /* Double the previous height of 416.5px */
         }
     </style>
 </head>
 <body>
     <div>
-        <h1>Predicting and Preventing Mortality Events Using CART</h1>
+        <h1>CART Assignment by Brian M Wisniewski</h1>
         <div class="description">
             <p><strong>Description:</strong></p>
-            <p>This project involved redesigning Ohio State University's IDP Calculator to improve its usability and user experience. The IDP calculator is used to assess security needs related to institutional data. The goal was to create a tool that helps researchers and university staff understand and comply with data protection policies by providing a more intuitive and informative interface.</p>
+            <p>The primary purposes of this report are to fit a classification tree model with the goal of predicting a death event based on other variables and to create a questionnaire, based on those findings, that doctors could use to assess a patient’s risk. This was accomplished by first selecting variables that appeared to correlate with death events and then fitting the tree model using those variables. To determine the variables through correlation assessment, various plots (Figure 1 & Figure 2) were created to gain a preliminary understanding of their correlation with death events. Based on my interpretation of those plots and the lack of correlation associated with them, I chose to exclude the platelets and time variables.</p>
             <p><strong>Technical Methods and Skills Used:</strong></p>
             <ul>
-                <li><strong>User Research and Analysis:</strong> Conducted user research to gather insights on current user experiences, pain points, and needs. This involved surveys, interviews, and usability testing.</li>
-                <li><strong>UI/UX Design:</strong> Applied user-centered design principles to create wireframes, mockups, and prototypes of the new IDP Calculator interface.</li>
-                <li><strong>Data Categorization and Mapping:</strong> Simplified data categorization and mapping processes to make it easier for users to understand and apply data protection requirements.</li>
-                <li><strong>Interactive Features:</strong> Implemented interactive features such as tooltips, help icons, and customizable views to enhance user engagement and understanding.</li>
-                <li><strong>Feedback and Iteration:</strong> Collected feedback from user testing sessions and iteratively improved the design based on user input.</li>
+                <li><strong>Variable Selection:</strong> Selected variables that appeared to correlate with death events through initial correlation assessment using various plots.</li>
+                <li><strong>Model Fitting:</strong> Fitted and plotted the classification tree model using the selected variables.</li>
+                <li><strong>Comparative Analysis:</strong> Created additional plots for models without certain variables to assess their performance relative to the original model.</li>
+                <li><strong>Questionnaire Development:</strong> Developed a questionnaire based on the structure and logic of the most informative and easily interpretable tree model.</li>
             </ul>
             <p><strong>Outcome:</strong></p>
-            <p>The redesigned IDP Calculator, named DataSense, was well-received by users during testing. Key improvements included a more intuitive interface, better data categorization, and enhanced interactive features. Users appreciated the clear and informative layout, which made it easier to navigate and understand data protection requirements. Recommendations for further improvements included adding labels to icons, refining the autocomplete feature, and providing pop-up text hints for key elements.</p>
+            <p>The final tree model provided the most informative yet easily interpretable results, which were used as the basis for the questionnaire. The questionnaire is structured as follows, guided by the logic presented in the tree model:</p>
+            <h3>Questionnaire</h3>
+            <ol>
+                <li>What is the patient’s serum creatinine level (mg/dL)?</li>
+                <li>What is the patient’s ejection fraction percentage?</li>
+                <li>What is the age of the patient (years)?</li>
+                <li>What is the patient’s serum sodium (mEq/L)?</li>
+                <li>What is the patient’s creatinine phosphokinase (mcg/L)?</li>
+            </ol>
+            <p>In summary, the model and questionnaire provided a structured method to assess a patient’s risk of a death event based on key medical variables, offering a valuable tool for healthcare providers.</p>
         </div>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/pWcHy37BsZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/example_video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="pdf-container">
-            <iframe src="/Project_RedesignIDP/IDP_Report.pdf" frameborder="0"></iframe>
-        </div>
-        <div class="pdf-container">
-            <iframe src="/Project_RedesignIDP/IDP_UserTesting.pdf" frameborder="0"></iframe>
+            <iframe src="/path_to_your_pdf/CART_Assignment.pdf" frameborder="0"></iframe>
         </div>
     </div>
 </body>
 </html>
+
