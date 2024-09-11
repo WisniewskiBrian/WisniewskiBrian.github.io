@@ -16,7 +16,7 @@ I am a dedicated data scientist with a Master's in Translational Data Analytics,
 
 ### What do I do? 
 
-- Resume: [Download My Resume](/WisniewskiBrian_Resume_05.17_2024.pdf)
+- Resume: [Download My Resume](/WisniewskiBrian_Resume_08.29.2024.pdf)
 - Work Samples:
   -  <a href="/Project_AirforceTesseractGrants/AirforceTesseractGrants.html">Collaborating with U.S. Air Force and Tesseract to Optimize Grant Funding Using Natural Language Processing</a>
   -  <a href="/Project_StockPrediction/Project_StockPrediction.html">Random Forest Regression and Support Vector Regression (SVR) to Forecast Google Stock Price</a>
